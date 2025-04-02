@@ -1,0 +1,91 @@
+
+.fillingWidget {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    height: 100%;
+    width: 30%;
+}
+
+.fillingWidget .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 25px;
+    height: 20%;
+}
+
+.fillingWidget .top > div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+}
+
+
+/* span title */
+.fillingWidget .top > div > span:first-child {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+/* number */
+.fillingWidget .top > div > div > span:first-child {
+    font-size: 26px;
+    color: var(--orange);
+    font-weight: 600;
+}
+
+/* client span */
+.fillingWidget .top > div > div > span:last-child {
+    font-size: 25px;
+    color: var(--dash);
+    font-weight: 500;
+}
+
+/* div with number */
+.fillingWidget .top > div > div {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+
+/* bottom with stat */
+.fillingWidget .bottom {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.fillingWidget .bottom > span:first-child {
+    font-weight: 600;
+}
+
+.fillingWidget .bottom > div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 12px;
+}
+
+.fillingWidget .bottom .advencement {
+
+    width: 100%;
+    /* border: 1px solid var(--grey-text); */
+    height: 10px;
+    border-radius: 10px;
+    background-color: #F2F4F8;
+    display: flex;
+    flex-direction: row;
+    clip-path: border-box;
+}
+
+.fillingWidget .bottom .advencement div{
+    height: 100%;
+    background-color: var(--yellow);
+    border-radius: 0px 20px 20px 0px
+}

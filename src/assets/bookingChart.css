@@ -1,0 +1,36 @@
+.bookingChart {
+height: 100%;
+    width: 70%;
+}
+
+.bookingChartHeader {
+    display: flex;flex-direction: row;justify-content: space-between;align-items: center;
+}
+.bookingChartHeader span:first-child ,
+.bookingChartHeader span:last-child  {
+    cursor: pointer !important;
+}
+
+.bookingChartHeader span:first-child:hover ,
+.bookingChartHeader span:last-child:hover  {
+    color: var(--dark-grey-text) !important;
+}
+
+
+.bookingChart svg{
+    width: 100%;
+    height: 70%;
+}
+
+.bookingChartLabel{
+    display: none;
+}
+.bookingChartCircle{
+
+}
+.bookingChartCircleHover{
+    cursor: pointer;
+}
+.bookingChartCircleHover:hover + .bookingChartLabel{
+display: block;
+}
