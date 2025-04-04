@@ -10,3 +10,18 @@
     gap: 34px;
     box-sizing: border-box;
 }
+
+@media only screen and (max-width: 800px) {
+    .dashboard {
+        flex-direction: column;
+        height: fit-content;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .dashboard {
+        padding: 15px;
+        gap: 15px;
+    }
+
+}

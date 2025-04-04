@@ -4,7 +4,7 @@
     flex-direction: column;
     gap: 25px;
     height: 100%;
-    width: 30%;
+    width: 20%;
 }
 
 .fillingWidget .top {
@@ -48,6 +48,7 @@
 .fillingWidget .top > div > div {
     display: flex;
     flex-direction: row;
+    align-items: baseline;
     gap: 6px;
 }
 
@@ -84,8 +85,23 @@
     clip-path: border-box;
 }
 
-.fillingWidget .bottom .advencement div{
+.fillingWidget .bottom .advencement div {
     height: 100%;
     background-color: var(--yellow);
     border-radius: 0px 20px 20px 0px
+}
+
+@media only screen and (max-width: 1430px) {
+    .fillingWidget .top > div > div > span:last-child {
+        font-size: 20px;
+    }
+    .fillingWidget{
+
+        width: 27%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .fillingWidget{
+        width: 100%;}
 }

@@ -3,7 +3,6 @@ import './App.css'
 import Dashboard from "./components/Dashboard.jsx";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
